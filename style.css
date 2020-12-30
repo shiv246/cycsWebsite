@@ -87,7 +87,7 @@ body {
 
 .ap {
     padding-top: 4cm;
-    padding-bottom: 4cm;
+    padding-bottom: 2cm;
 }
 
 .padding {
@@ -171,6 +171,21 @@ footer {
 
 .fa-linkedin {
     color: #fcfcfc;
+}
+
+.team {
+    -webkit-filter: grayscale(100%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%);
+    /* FF 35+ */
+}
+
+.team:hover {
+    transition: filter .25s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%);
+    /* FF 35+ */
 }
 
 
