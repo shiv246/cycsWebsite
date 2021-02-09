@@ -86,7 +86,11 @@ body {
 }
 
 .ap {
-    padding-top: 4cm;
+    padding-top: 1.5cm;
+    padding-bottom: 2cm;
+}
+
+.wp {
     padding-bottom: 2cm;
 }
 
@@ -111,6 +115,17 @@ body {
 .cs {
     font-weight: 200;
     text-align: center;
+}
+
+.jb {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+#jumbo {
+    background-color: rgb(94, 98, 172);
+    padding: 0.5cm;
 }
 
 
