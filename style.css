@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-nav li {
-    padding-right: 0.992vw;
+    padding-right: 25px;
     color: #000000;
 }
 
@@ -82,12 +82,12 @@ body {
     font-size: 15pt;
     line-height: 25pt;
     text-align: middle;
-    padding-left: 4.499vw;
+    padding-left: 3cm;
 }
 
 .ap {
-    padding-top: 1.7.499vw;
-    padding-bottom: 3vw;
+    padding-top: 1.5cm;
+    padding-bottom: 2cm;
 }
 
 .wp {
